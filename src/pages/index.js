@@ -250,7 +250,7 @@ export default function Index() {
       </section>
 
       <div
-        className="sticky inset-x-0 bottom-4 mb-12 px-8 z-[9999] isolate">
+        className="sticky inset-x-0 bottom-4 mb-12 px-8 z-[99]">
         <div className="flex justify-center">
           <a
             onClick={() => goToContact('float')}

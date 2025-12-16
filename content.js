@@ -15,7 +15,7 @@ export const contentAltaTension = {
   },
   beneficios: {
     banner: {
-      title: "¿Por qué trabajar con nosotros cambia todo? Aquí va.",
+      title: "Trabajar con nosotros te da certidumbre",
       description: null
     },
     content: {
@@ -70,7 +70,7 @@ export const contentAltaTension = {
   },
   atributos: {
     banner: {
-      title: "Hacemos lo necesario para que tu nave industrial cumpla y opere a tiempo.",
+      title: "Hacemos lo necesario para que tu nave industrial cumpla y opere a tiempo",
       description: null
     },
     content: {
@@ -105,24 +105,24 @@ export const contentAltaTension = {
   },
   testimonios: {
     banner: {
-      title: "Ya lo hicimos antes. <br/>Y a tiempo.",
+      title: "Ya lo hicimos antes, con calidad y a tiempo",
       description: null
     },
     content: {
       paragraph: null,
       items: [
         {
-          title: "Ing. Roberto Mendoza, Parque Industrial Guadalajara",
+          title: "Parque Industrial Guadalajara",
           description: "Gracias a ELCO evitamos un paro crítico en nuestra planta. Ellos se encargaron de todo, desde el diseño hasta el alta con CFE.",
           img: "testimonios01.jpg"
         },
         {
-          title: "Laura Ríos, Compras Técnicas, Gobierno de Colima",
+          title: "Gobierno de Poncitlán",
           description: "La asesoría técnica que recibimos fue clave para aprobar el proyecto a tiempo. Nos explicaron todo con claridad y ejecutaron sin errores.",
           img: "testimonios02.jpg"
         },
         {
-          title: "Carlos Galván, Supervisor de Obra, Grupo Constructor Bajío",
+          title: "Grupo Constructor Bajío",
           description: "Lo que más valoro es que responden rápido. Tuvimos una falla menor y ese mismo día ya estaban revisando en sitio.",
           img: "testimonios03.jpg"
         }
@@ -135,7 +135,7 @@ export const contentAltaTension = {
   },
   garantias: {
     banner: {
-      title: "Cumplimos porque no sabemos trabajar de otra forma.",
+      title: "Cumplimos porque no sabemos trabajar de otra forma",
       description: null
     },
     content: {
@@ -216,7 +216,7 @@ export const contentAltaTension = {
   cta: {
     banner: {
       title: "Evita problemas eléctricos antes de que frenen tu obra",
-      description: "Déjanos tus datos y uno de nuestros técnicos certificados se pondrá en contacto contigo lo más pronto posible"
+      description: "Déjanos tus datos y mándanos un Whatsapp o espera a que uno de nuestros técnicos certificados se ponga en contacto contigo."
     },
     content: {
       paragraph: null,

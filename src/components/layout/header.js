@@ -9,9 +9,9 @@ export default function Header() {
   const path = router.pathname;
   return (
     <header
-      className={`fixed top-0 px-8 bg-white/80 backdrop-blur-sm w-screen shadow-sm ${path === '/survey' ? 'h-[4rem]' : 'h-[8rem]'} flex justify-between z-[99] hover:top-0`}
+      className={`fixed top-0 px-8 bg-white/80 backdrop-blur-sm w-screen shadow-sm ${path === '/survey' ? 'h-[4rem]' : 'h-[8rem]'} flex justify-between z-[999] hover:top-0`}
     >
-      <div className="flex items-center z-[10]">
+      <div className="flex items-end z-[10]">
         <div className="relative flex items-center h-[6rem] aspect-[3/1]">
           <Link href="/" passhref>
             <a>
@@ -24,10 +24,8 @@ export default function Header() {
             </a>
           </Link>
         </div>
+        <h1 className="ft-2 text-neutral-800 mb-4 !leading-none">Alta y Media<br/> Tensión</h1>
       </div>
     </header>
-
-
-
   );
 }
