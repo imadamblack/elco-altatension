@@ -10,7 +10,7 @@ import Faqs from '../components/faqs';
 import scrollDepth from '../utils/scrollDepth';
 import { gtagSendEvent } from '../services/fbEvents';
 
-export default function Index() {
+export default function Index({lead, utm}) {
   const [lastClick, setLastClick] = useState('');
 
   useEffect(() => {
@@ -278,6 +278,7 @@ export default function Index() {
             </div>
             <OptInForm
               lastClick={lastClick}
+              utm={utm}
             />
           </div>
         </div>
