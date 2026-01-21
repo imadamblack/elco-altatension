@@ -6,6 +6,8 @@ import { getCookie, setCookie } from 'cookies-next';
 import { useState } from 'react';
 import { emailRegExp, restrictNumber } from '../../utils/formValidators';
 import fbEvent, { gtagSendEvent } from '../../services/fbEvents';
+import { Select } from './formAtoms';
+import { mexicanStates } from '../../catalogs/mexican-states';
 
 export default function OptInForm({lastClick = '', utm = {}}) {
   const [sending, setSending] = useState(false);
@@ -100,6 +102,22 @@ export default function OptInForm({lastClick = '', utm = {}}) {
           className={errors.phone && '!bg-red-200'}
           onKeyDown={restrictNumber}
           placeholder="Numero de WhatsApp"/>
+
+        <Select
+          options={mexicanStates}
+          name="state"
+          inputOptions={{required: true}}
+          placeholder="Selecciona un estado"
+          className={`rounded-md px-6 py-4 bg-white ${errors.state && '!bg-red-200'}`}
+        />
+
+        <input
+          {...register(
+            'city',
+            {required: true},
+          )}
+          className={errors.city && '!bg-red-200'}
+          placeholder="Ciudad o localidad"/>
 
         <button
           disabled={sending}
